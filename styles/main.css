@@ -6,22 +6,37 @@ header{
     height: 525px;
     background-size: cover;
     background-image: url("../images/img-header.png");
+    color: white;
 }
 
 header h1{
+    margin: 0;
     padding: 20px;
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
 }
 
 header section div{
-    width: 250px;
+    background-color: cornflowerblue;
+    opacity: 0.5;
+    width: 350px;
     position: relative;
-    top: 250px;
-    left: 5em;
+    top: 180px;
+    left: 40px;
 }
 
 header section div p{
-    font-size: 25px;
+    font-size: 40px;
 }
 
+.skills{
+    margin: 0px;
+    width: 960px;
+    background: #7299FE;
+    color: white;
+}
+
+.skills h2{
+    margin: 0;
+    padding: auto;
+}
