@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        width: 90%;
+        margin: auto;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    section {
+        display: block;
+        margin: auto;
+        padding: 20px;
+        color:beige;
+        width: 90%;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 7px black;
+    }
+
+    p {
+        margin: 10px;
+        padding: 10px 15px;
+        text-align: justify;
+    }
+    
+    h1{
+        text-align: center;
+        color: black;
+    }
+
+    h2{
+        margin-left: 2%;
+    }
+
+    input{
+        border-style: none;
+        border-radius: 4px;
+        padding: 10px;
+        width: 46%;
+        margin-left: 3%;
+    }
+    
+    textarea{
+        border-radius: 10px;
+        width: 96%;
+        margin-left: 3%;
+    }
+
+    ::selection{
+        background-color: coral;
+        color: rgb(16, 112, 202);
+    }
+    
+    p::first-letter{
+        font-size: 25px;
+    }
+    
+    .titulo{
+        margin-bottom: 10px;
+        border-bottom: 2px solid black;
+    }
+
+    .personal{
+        background-color: rgb(0, 155, 8);
+    }
+
+    .personal h2{
+        color:darkslategray;
+    }
+
+    .personal img{
+        width: 400px;
+        display:block;
+        margin: auto;
+    }
+    .personal figcaption{
+        text-align: center;
+    }
+
+    .profesion{
+        background-color:cadetblue;
+    }
+    
+    .profesion h2{
+        color: black;
+    }
+    .hobbies{
+        background-color: crimson;
+    }
+
+    .hobbies h2{
+        color: burlywood;
+    }
+
+    .formulario{
+        background: darkgreen;
+    }
+
+    .formulario div{
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+    }
+
+</style>
+
+<body>
+    <section class="titulo">
+        <h1>MI PRIMERRA PAGINA WEB</h1>
+    </section>
+    <section class="personal">
+        <h2>SOBRE MI</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo explicabo aperiam cupiditate odio optio unde
+            recusandae fugiat temporibus adipisci placeat mollitia numquam officia quia, odit exercitationem eius ea?
+            Pariatur, illo!</p>
+            <figure>
+                <img src="https://www.hillspet.com.mx/content/dam/cp-sites/hills/hills-pet/es_mx/skyword/golden-retriever-puppy-running-in-field-SW.jpg" alt="">
+                <figcaption>Cachorro Genial</figcaption>
+            </figure>
+    </section>
+    <section class="profesion">
+        <h2>PROFESION</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo explicabo aperiam cupiditate odio optio unde
+            recusandae fugiat temporibus adipisci placeat mollitia numquam officia quia, odit exercitationem eius ea?
+            Pariatur, illo!</p>
+    </section>
+    <section class="hobbies">
+        <h2>HOBBIES</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo explicabo aperiam cupiditate odio optio unde
+            recusandae fugiat temporibus adipisci placeat mollitia numquam officia quia, odit exercitationem eius ea?
+            Pariatur, illo!</p>
+    </section>
+    <section class="formulario">
+        <h2>CONTACTAME</h2>
+        <form action="">
+            <div>
+                <input type="text" placeholder="NOMBRES">
+                <input type="text" placeholder="APELLIDOS">
+            </div>
+            <div>
+                <input type="tel" placeholder="CELULAR">
+                <input type="email" placeholder="CORREO ELECTRONICO">
+            </div>
+            <div>
+                <textarea placeholder="Hola" name="" id="" cols="30" rows="10" value=""></textarea>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>
