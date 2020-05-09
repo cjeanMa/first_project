@@ -1,37 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body{
     width: 1024px;
     margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
-header{
+
+section {
+    width: 100%;
+}
+
+h2{
+    padding: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+
+h3{
+    font-size: 20px;
+    padding: 10px 0px 0px 0px;
+}
+
+.header{
     height: 525px;
     background-size: cover;
     background-image: url("../images/img-header.png");
     color: white;
 }
 
-header h1{
+.header h1{
     margin: 0;
     padding: 20px;
     font-size: 60px;
     text-align: center;
 }
+.header h2{
+    text-align: justify;
+}
 
-header section div{
-    background-color: cornflowerblue;
-    opacity: 0.5;
+.header div{
+    background: rgba(114, 153, 254, 0.5);
     width: 350px;
     position: relative;
     top: 180px;
     left: 40px;
 }
 
-header section div p{
-    font-size: 40px;
-}
-
 .skills{
     margin: 0px;
-    width: 960px;
+    height: 424px;
     background: #7299FE;
     color: white;
 }
@@ -40,49 +62,19 @@ header section div p{
     margin: 0;
     padding: auto;
 }
-ul{
-    display: flex;
+
+.skills>div{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-gap: 5%;
 }
 
-ul li{
-    list-style: none;
-    margin: 5px;
-    padding: 0px 10px;
+.barra{
+    background-color: white;
+    width: 100%;
+    height: 20px;
 }
 
-ul li:last-child{
-    color: red;
-}
-
-ul li:first-child{
-    color: purple;
-    background-color: rosybrown;
-}
-
-p{
-    
-}
-
-
-
-input{
-    width: 400px;
-    height: 100px;
-    padding: 10px;
-}
-
-input[type="text"],
-    [type="number"],
-    [type="email"]{
-        background-color: tomato;
-}
-input[type="text"]:hover,
-    [type="number"]:hover,
-    [type="email"]:hover{
-        background-color: blue;
-}
-
-::selection{
-    background-color: pink;
-    color: purple;
-}
