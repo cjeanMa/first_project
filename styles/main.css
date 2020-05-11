@@ -1,0 +1,224 @@
+/*Globals
+*/
+html{
+    font-size: 62.5%;
+    max-width: 960px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+h1{
+    font-size: 6.4rem;
+}
+
+h2{
+    font-size: 3.6rem;
+}
+
+section>h2{
+    text-align: center;
+    padding: 30px;
+}
+figcaption{
+    text-align: center;
+    margin: 10px;
+    font-size: 2.2em;
+}
+
+input{
+    padding-left: 30px;
+    font-size: 1.5em;
+}
+
+input::placeholder{
+    font-weight: bold;
+}
+
+textarea{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: inherit;
+    font-size: 1.5em;
+}
+
+textarea::placeholder{
+    font-weight: bold;
+}
+
+button{
+    display: block;
+    margin: auto;
+    width: 167px;
+    height: 56px;
+    background-color: #233451;
+    color: inherit;
+    font-size: 1.8em;
+    border-style: none;
+    margin-top: 30px;
+}
+/*Header
+*/
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 525px;
+    background-size: cover;
+    background-image: url('../images/main-banner.png');
+}
+
+.header h1{
+    position: absolute;
+    top: 36px;
+    left: 374px;
+    font-size: 6.4rem;
+}
+
+.header h2{
+    width: 327px;
+    height: 84px;
+    padding: 16px 22px 17px 16px;
+    position: absolute;
+    top: 270px;
+    left: 52px;
+    line-height: 1.2;
+    background: rgba(114, 153, 254, 0.5);
+}
+
+/* Skills
+*/
+.skills{
+    height: 424px;
+    padding: 0px 104px;
+    background-color: #7299FE;
+}
+
+.skills h3{
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+
+.skills>.grid-skills{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    column-gap: 24px;
+    row-gap: 20px;
+}
+
+.barra{
+    height: 17px;
+    background-color: white;
+}
+
+.barra div{
+    width: 50%;
+    height: 17px;
+    background-color:black;
+}
+
+/*Services
+*/
+
+.services{
+    height: 424px;
+    background-color: #FB7171;
+    padding: 0 140px;
+}
+
+.services h2{
+    margin-bottom: 30px;
+}
+
+.services img{
+    width: 45px;
+    height: 45px;
+    display: block;
+    margin: auto;
+}
+.services>div{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(2, 1fr);
+   column-gap: 5px;
+   row-gap: 30px;
+}
+
+/*Briefcase
+*/
+.briefcase{
+    height: 424px;
+    background-color: #FFD233;
+    padding: 0 170px;
+}
+
+.briefcase h2{
+    padding: 45px;
+}
+
+.briefcase img {
+    width: 140px;
+    height: 92px;
+    display: block;
+    margin: auto;
+}
+
+.briefcase>div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 7px;
+}
+/*Customers
+*/
+ .customers{
+    height: 258px;
+    padding: 40px;
+    background-color: #3F4E62;
+ }
+
+.customers h2{
+    margin-bottom: 25px;
+}
+
+.customers img{
+    width: 178px;
+    height: 69px;
+    display: block;
+    margin: auto;
+}
+
+.customers>div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+/*Contact
+*/
+
+.contact{
+    height: 578px;
+    background-color: #16A085;
+    padding: 0px 100px;
+}
+
+.contact h2{
+    padding: 45px;
+}
+
+.contact div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 59px) 112px;
+    gap: 15px;
+}
+.contact textarea{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
