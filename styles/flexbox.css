@@ -1,0 +1,47 @@
+/*Globals
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    color: aquamarine;
+    background-color: brown;
+}
+
+h1{
+    margin: 5%;
+    text-align: center;
+    font-size: 3.2rem;    
+}
+
+main{
+    max-width: 1024px;
+    width: 100%;
+    margin: auto;
+    padding: 5% 10%;
+}
+/* Flexbox
+*/
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    background-color: cornsilk;
+    align-items: center;
+    
+}
+
+.caja{
+    font-size: 2.0rem;
+    color: darkred;
+    background-color: rgb(139, 190, 190);
+}
