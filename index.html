@@ -15,12 +15,12 @@
     <main>
         <section class="header">
             <h1>codiGO</h1>
-            <h2>Hola, Mi nombre es Jean Marco Castillo</h2>
+            <h2>Hola, Mi nombre<br/>es Jean M. Castillo</h2>
         </section>
 
         <section class="skills">
             <h2>My Skills</h2>
-            <div class="grid-skills">
+            <div class="flex-skills">
                 <div>
                     <h3>Html</h3>
                     <div class="barra">
@@ -73,7 +73,7 @@
         </section>
         <section class="services">
             <h2>Servicios</h2>
-            <div>
+            <div class="flex-services">
                 <div>
                     <figure>
                         <img src="./images/check.png" alt="check">
@@ -114,53 +114,37 @@
         </section>
         <section class="briefcase">
             <h2>Portafolio</h2>
-            <div>
-                <div>
-                    <figure><img src="./images/portafolio1.png" alt="img-port"></figure>
-                </div>
-                <div>
-                    <figure><img src="./images/portafolio2.png" alt="img-port"></figure>
-                </div>
-                <div>
-                    <figure><img src="./images/portafolio3.png" alt="img-port"></figure>
-                </div>
-                <div>
-                    <figure><img src="./images/portafolio4.png" alt="img-port"></figure>
-                </div>
-                <div>
-                    <figure><img src="./images/portafolio5.png" alt="img-port"></figure>
-                </div>
-                <div>
-                    <figure><img src="./images/portafolio6.png" alt="img-port"></figure>
-                </div>
-                <div>
-                    <figure><img src="./images/portafolio7.png" alt="img-port"></figure>
-                </div>
-                <div>
-                    <figure><img src="./images/portafolio8.png" alt="img-port"></figure>
-                </div>
+            <div class="flex-briefcase">
+                <img src="./images/portafolio1.png" alt="img-port">
+                <img src="./images/portafolio2.png" alt="img-port">
+                <img src="./images/portafolio3.png" alt="img-port">
+                <img src="./images/portafolio4.png" alt="img-port">
+                <img src="./images/portafolio5.png" alt="img-port">
+                <img src="./images/portafolio6.png" alt="img-port">
+                <img src="./images/portafolio7.png" alt="img-port">
+                <img src="./images/portafolio8.png" alt="img-port">
             </div>
         </section>
         <section class="customers">
             <h2>Clientes</h2>
-            <div>
-                <figure><img src="./images/cliente1.png" alt="customer1"></figure>
-                <figure><img src="./images/cliente2.png" alt="customer1"></figure>
-                <figure><img src="./images/cliente3.png" alt="customer1"></figure>
-                <figure><img src="./images/cliente1.png" alt="customer1"></figure>
+            <div class="flex-customers">
+                <img src="./images/cliente1.png" alt="customer1">
+                <img src="./images/cliente2.png" alt="customer1">
+                <img src="./images/cliente3.png" alt="customer1">
+                <img src="./images/cliente1.png" alt="customer1">
             </div>
         </section>
         <section class="contact">
-            <h2>Contactos</h2>
+            <h2>Contacto</h2>
             <form>
+                <input type="text" placeholder="Nombres">
+                <input type="text" placeholder="Apellidos">
+                <input type="email" placeholder="Correo Electronico">
+                <input type="tel" placeholder="Celular">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Descripcion"></textarea>
                 <div>
-                    <input type="text" placeholder="Nombres">
-                    <input type="text" placeholder="Apellidos">
-                    <input type="email" placeholder="Correo Electronico">
-                    <input type="tel" placeholder="Celular">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Comentario"></textarea>
+                    <button type="submit">ENVIAR</button>
                 </div>
-                <button type="submit">ENVIAR</button>
             </form>
         </section>
     </main>
