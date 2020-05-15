@@ -342,7 +342,7 @@ form>div {
     */
     .skills {
         max-height: none;
-        padding: 0 15% 10%;
+        padding: 0 10% 10%;
     }
     .flex-skills>div {
         width: 100%;
@@ -381,7 +381,9 @@ form>div {
         padding: 0 10% 5%;
     }
 }
-
+/*
+    Screen 480
+*/
 @media (max-width:480px) {
     /*Globals
     */
