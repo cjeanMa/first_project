@@ -45,3 +45,27 @@ main{
     color: darkred;
     background-color: rgb(139, 190, 190);
 }
+
+
+.practica-background{
+    background-color: deepskyblue;
+    width: 100%;
+    height: 500px;
+}
+
+.bg-linear{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(45deg, gray, white);
+}
+
+.bg-radial{
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(orange 30%, red, brown);
+    transition: border-radius .5s ease;
+}
+
+.bg-radial:hover{
+    border-radius: 50%;
+}
